@@ -38,7 +38,6 @@ task :post do
     post.puts 'description: ""'
     post.puts "date: #{date}"
     post.puts "tags: #{tags}"
-    post.puts "comments: true"
     post.puts "---"
   end
 end # task :post
@@ -69,14 +68,13 @@ task :draft do
     draft.puts 'description: ""'
     draft.puts "date: #{date}"
     draft.puts "tags: #{tags}"
-    draft.puts "comments: true"
     draft.puts "---"
   end
 end # task :draft
 
 desc "Install Jekyll Plugins"
 task :geminstall do
-  system "sudo gem install jekyll-seo-tag jekyll-paginate jekyll-admin"
+  system "sudo gem install jekyll-paginate jekyll-admin"
 end # task :geminstall
 
 desc "Launch preview environment"

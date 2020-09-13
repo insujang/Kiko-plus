@@ -3,3 +3,5 @@ _site
 Gemfile.lock
 _drafts
 .jsbeautifyrc
+.jekyll-cache
+.jekyll-metadata

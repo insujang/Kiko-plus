@@ -1,7 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -19,14 +19,13 @@ body {
 .content-container {
   max-width: 48rem;
   padding: 5rem 1rem;
-  margin-left:  auto;
+  margin-left: auto;
   margin-right: auto;
 
-  @media (max-width: 48rem){
+  @media (max-width: 48rem) {
     padding: 2rem 1.3rem;
   }
 }
-
 
 /*--------------
   Header
@@ -52,17 +51,16 @@ body {
     span {
       color: $oc-gray-5;
     }
-
   }
 
   &-nav {
     a {
       color: $oc-gray-7;
       text-transform: lowercase;
-      -webkit-transition: all .2s ease;
-         -moz-transition: all .2s ease;
-              transition: all .2s ease;
-      margin-right: .3rem;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+      margin-right: 0.3rem;
 
       &:hover,
       &:focus {
@@ -75,8 +73,8 @@ body {
 
 .header-small {
   text-align: left;
-  margin-bottom: .75rem;
-  font-size: .75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
 
@@ -104,12 +102,10 @@ body {
   }
 }
 
-
 /*--------------
   Post
   -------------- */
 .post {
-
   &-title {
     margin-top: 0rem;
     margin-bottom: 0.3rem;
@@ -119,23 +115,23 @@ body {
   }
 
   &-date {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     color: $oc-gray-8;
-    font-size: .75rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
   }
 
-   &-tag {
+  &-tag {
     margin-bottom: 1.5rem;
 
     ul {
       li:before {
-        content: ""
+        content: "";
       }
 
       li {
         margin: 0;
-        font-size: .75rem;
+        font-size: 0.75rem;
         font-weight: 300;
         display: inline;
         list-style-type: none;
@@ -152,7 +148,7 @@ body {
 
           span {
             float: left;
-            padding: .5px 5px;
+            padding: 0.5px 5px;
           }
         }
 
@@ -166,7 +162,6 @@ body {
   &-disqus {
     margin-top: 4rem;
   }
-
 }
 
 /*--------------
@@ -176,7 +171,7 @@ body {
 .list {
   &-post {
     padding: 4% 2%;
-    
+
     &:hover {
       background-color: $background-over-color;
       border-color: transparent;
@@ -186,6 +181,8 @@ body {
     a {
       color: $base-color;
 
+      outline: 0;
+
       &:hover,
       &:focus {
         text-decoration: none;
@@ -193,21 +190,21 @@ body {
     }
 
     &-title {
-      margin-bottom: .3rem;
-      font-size : 1.8rem;
+      margin-bottom: 0.3rem;
+      font-size: 1.8rem;
       font-weight: 600;
     }
 
     &-date {
       color: $base-lighten-color;
-      font-size: .8rem;
+      font-size: 0.8rem;
       text-transform: uppercase;
     }
 
     &-desc {
       color: $base-color;
-      margin-bottom: .25rem;
-      font-size :1rem;
+      margin-bottom: 0.25rem;
+      font-size: 1rem;
     }
   }
 
@@ -246,7 +243,6 @@ body {
   }
 }
 
-
 /*--------------
   Tags
   -------------- */
@@ -254,7 +250,7 @@ body {
   &-index {
     ul {
       li:before {
-        content: ""
+        content: "";
       }
 
       li {
@@ -275,7 +271,7 @@ body {
 
           span {
             float: left;
-            padding: .5px 5px;
+            padding: 0.5px 5px;
           }
 
           .count {
@@ -313,7 +309,7 @@ body {
       text-decoration: none;
       background-color: $background-over-color;
       border-color: transparent;
-      }
+    }
   }
 }
 
@@ -326,8 +322,8 @@ body {
       padding: 0.1rem;
 
       &:hover {
-          background-color: $background-over-color;
-          border-color: transparent;
+        background-color: $background-over-color;
+        border-color: transparent;
       }
 
       a {
@@ -340,29 +336,28 @@ body {
       }
 
       &-title {
-        font-size : 1.2rem;
+        font-size: 1.2rem;
         font-weight: 400;
       }
 
       &-date {
         color: $base-lighten-color;
-        font-size: .75rem;
+        font-size: 0.75rem;
         text-transform: uppercase;
       }
     }
   }
 }
 
-
 /*--------------
   Footer
   -------------- */
 .footer {
   text-align: center;
-  font-size: .75rem;
+  font-size: 0.75rem;
 
   &-link {
-    margin: .2rem;
+    margin: 0.2rem;
 
     a {
       color: $base-color;

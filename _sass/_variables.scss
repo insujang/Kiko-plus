@@ -3,15 +3,15 @@
 /*--------------
   Font
   -------------- */
-$base-font: 'Spoqa Han Sans', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
-$code-font: Menlo, 'Spoqa Han Sans', Monaco, monospace;
+$base-font: "Spoqa Han Sans", "Source Sans Pro", Apple SD Gothic Neo,
+  Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
+$code-font: Menlo, "Spoqa Han Sans", Monaco, monospace;
 $code-gist-font: Menlo, Monaco, "Courier New", monospace;
 
 $base-font-size: 18px;
 $base-font-size-sm: 14px;
 
 $mobile-font-size: 16px;
-
 
 /*--------------
   Color
@@ -30,7 +30,6 @@ $table-border-color: $oc-gray-2;
 $table-background-color: $oc-gray-1;
 
 $divider-color: $oc-gray-1;
-
 
 /*--------------
   List
@@ -54,4 +53,4 @@ $li-child-size-ratio: 0.95;
 
 $dt-width: 180px;
 $dt-dd-space: 20px;
-$dd-position: $dt-width+$dt-dd-space
+$dd-position: $dt-width + $dt-dd-space;

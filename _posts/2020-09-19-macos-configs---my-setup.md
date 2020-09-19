@@ -6,7 +6,7 @@ date: 2020-09-19
 tags: [macOS, configuration]
 ---
 
-This is a first in an 4(5??)-part series in how I configure my mac & terminal/shell.
+This is a first in a 4(5??)-part series in how I configure my mac & terminal/shell.
 
 This part is a pretty short one, mostly a test first blog post to see how formatting & images look.
 
@@ -58,13 +58,15 @@ or to disable it:
 $ defaults delete -g NSWindowShouldDragOnGesture
 ```
 
-& restart your mac to enable it.
+& restart your mac for it to take effect.
 
 ![Double-tap 2 drag](/assets/images/draganywhere.gif){: .center-image}
 
 But unlike his tweet, you only need to hold down `⌘+ctrl`, and then click anywhere on a window. It bounces, indicating your cursor has grabbed it; you can even let go of `⌘+ctrl`, and as long as you hold down your cursor, you can continue dragging the window anywhere.
 
 Much more fun than 'hunting' a tiny menubar!!
+
+_NOTE: you can also combine double-tap-to-drag with this!_
 
 ---
 

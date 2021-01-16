@@ -58,7 +58,7 @@ And a preview using a colorized terminal application like htop:
 
 ### Font
 
-A really good font is a huge deal for me - it makes a massive difference when visually scrolling through code all day. I prefer monospaced fonts that make it easy to differentiate between similar characters such as l/1/I or O/0, and additionally have nice ligatures that convert certain character combinations into their logical representation, like -> into an arrow.
+A really good font is a huge deal for me - it makes a massive difference when visually scrolling through code all day. I prefer monospaced fonts that make it easy to differentiate between similar characters such as `l/1/I` or `O/0`, and additionally have nice ligatures that convert certain character combinations into their logical representation, like -> into an arrow.
 
 The font that has really stood out for me & stood the test of time is [Fira Code Mono](https://github.com/tonsky/FiraCode):
 

@@ -70,7 +70,7 @@ It can be installed through Homebrew with:
 $ brew install --cask font-fira-code
 ```
 
-To enable it in iTerm2, select it in Profiles and be sure to check the "Ligatures" option:
+To enable it in iTerm2, select it in Profiles and be sure to check the "Use ligatures" option:
 
 ![iTerm2 Enable Fira Code Font](/assets/images/iterm2-enable-fira-code.png){: .center-image}
 

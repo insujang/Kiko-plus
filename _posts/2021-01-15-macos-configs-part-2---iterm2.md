@@ -38,7 +38,7 @@ The repo has instructions to install the theme: [Getting Started](https://github
 
 Additionally, I make one tweak to the colorscheme - swapping the selection highlight color so it stands out better:
 
-```
+```nohighlight
 RGB Hex Codes:
 Selection: #d8dee8
 Selected text: #3b4251
@@ -66,9 +66,7 @@ The font that has really stood out for me & stood the test of time is [Fira Code
 
 It can be installed through Homebrew with:
 
-```bash
-$ brew install --cask font-fira-code
-```
+`$ brew install --cask font-fira-code`
 
 To enable it in iTerm2, select it in Profiles and be sure to check the "Use ligatures" option:
 
